@@ -1,0 +1,2 @@
+n = input('Escreva algo: ')
+print('O tipo digitado é: {}, é um numerico? {}, é alfanumerico? {}, é maiusculo? {}, é minusculo? {}, é capitalizado? {}'.format(type(n), n.isnumeric(), n.isalnum(), n.isupper(), n.islower(), n.istitle()))
